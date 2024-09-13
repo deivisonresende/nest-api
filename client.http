@@ -29,6 +29,6 @@ Content-Type: application/json
 Authorization: Bearer {{access_token}}
 
 {
-  "title": "Título",
-  "content": "Pergunta"
+  "title": "Título de uma pergunta",
+  "content": "Porquê?"
 }
