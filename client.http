@@ -32,3 +32,9 @@ Authorization: Bearer {{access_token}}
   "title": "Título de uma pergunta",
   "content": "Porquê?"
 }
+###
+
+# @name show_recent_questions
+GET {{base_url}}/questions?page=1&limit=10
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
